@@ -16,5 +16,12 @@ function moneyBox() {
   return countCoins;
 }
 
-const myMoneyBox = moneBox();
+const myMoneyBox = moneyBox();
 myMoneyBox(10);
+myMoneyBox(10);
+myMoneyBox(10);
+
+const myMoneyBox2 = moneyBox();
+myMoneyBox2(5);
+myMoneyBox2(20);
+myMoneyBox2(15);
